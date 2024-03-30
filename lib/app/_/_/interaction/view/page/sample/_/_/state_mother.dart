@@ -18,7 +18,7 @@ mixin StateMother<T extends StatefulWidget> on State<T> {
   /// automatically generated action code - don't change this code
 
 increaseCountAction() {
-  var state = SampleViewState(); // do not change this line
+  var state = NewViewState(); // do not change this line
   state.counter = state.counter + 1;
   updateState(() {});
 

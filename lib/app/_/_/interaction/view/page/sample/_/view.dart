@@ -12,7 +12,7 @@ class SampleView extends StatefulWidget {
   State<SampleView> createState() => StateChild();
 }
 
-class SampleViewState extends State<SampleView> with StateMother {
+class NewViewState extends State<SampleView> with StateMother {
   int counter = 0;
   @override
   Widget build(BuildContext context) {

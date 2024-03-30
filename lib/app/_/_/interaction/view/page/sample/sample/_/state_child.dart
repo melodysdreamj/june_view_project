@@ -5,7 +5,7 @@ import '../../../../../../../../../main.dart';
 import '../action/increase_count.dart';
 
 @JuneViewChild()
-class StateChild extends SampleViewState {
+class StateChild extends NewViewState {
   bool isReadyView = false;
 
   late StateChild state;
